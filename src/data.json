@@ -1,0 +1,620 @@
+[
+    {
+        "generalData": [
+            {
+                "name": "id",
+                "displayName": "Registro",
+                "value": 209873,
+                "type": "text"
+            },
+            {
+                "name": "name",
+                "displayName": "Nombre",
+                "value": "Jorge Ramirez Martinez",
+                "type": "text"
+            },
+            {
+                "name": "age",
+                "displayName": "Edad",
+                "value": 82,
+                "type": "text"
+            },
+            {
+                "name": "sex",
+                "displayName": "Sexo",
+                "value": 0,
+                "options": [
+                    "Masculino",
+                    "Femenino"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "occupation",
+                "displayName": "Ocupación",
+                "value": "Pensionado",
+                "type": "text"
+            },
+            {
+                "name": "hall",
+                "displayName": "Cuarto",
+                "value": 23,
+                "type": "text"
+            }
+        ],
+        "motive": {
+            "name": "motive",
+            "displayName": "Motivo de consulta",
+            "value": "\"presentó convulsiones y parece confundió\" menciona el familiar",
+            "type": "textarea"
+        },
+        "antescedentesPersonalesPatologicos": [
+            {
+                "name": "Cardiovasculares",
+                "displayName": "Cardiovasculares",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Digestivos",
+                "displayName": "Digestivos",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Pulmonares",
+                "displayName": "Pulmonares",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Renales",
+                "displayName": "Renales",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Alérgicos",
+                "displayName": "Alérgicos",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Diabetes",
+                "displayName": "Diabetes",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Quirúrgico",
+                "displayName": "Quirúrgico",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": " Transfusión",
+                "displayName": " Transfusión",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Medicamentos",
+                "displayName": "Medicamentos",
+                "value": "",
+                "type": "textarea"
+            },
+            {
+                "name": "Especifíque",
+                "displayName": "Especifíque",
+                "value": "",
+                "type": "textarea"
+            }
+        ],
+        "antescedentesPersonalesNoPatologicos": [
+            {
+                "name": "Alcohol",
+                "displayName": "Alcohol",
+                "value": 2,
+                "options": [
+                    "No",
+                    "Sí",
+                    "En Ocasiones"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Tabaco",
+                "displayName": "Tabaco",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí",
+                    "En Ocasiones"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Drogas",
+                "displayName": "Drogas",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí",
+                    "En Ocasiones"
+                ],
+                "type": "options"
+            },    
+            {
+                "name": "Inmunización",
+                "displayName": "Inmunización",
+                "value": 1,
+                "options": [
+                    "No",
+                    "Sí",
+                    "En Ocasiones"
+                ],
+                "type": "options"
+            },        
+            {
+                "name": "Otros",
+                "displayName": "Otros",
+                "value": "",
+                "type": "textarea"
+            }
+        ],
+        "antescedentesFamiliares": [
+            {
+                "name": "Padre",
+                "displayName": "Padre",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Enfermedades del padre",
+                "displayName": "Enfermedades del padre",
+                "value": "Diábetes tipo 2",
+                "type": "textarea"
+            },
+            {
+                "name": "Madre",
+                "displayName": "Madre",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Enfermedades de la madre",
+                "displayName": "Enfermedades de la madre",
+                "value": "Hipertensión",
+                "type": "textarea"
+            },
+            {
+                "name": "Hermanos",
+                "displayName": "Hermanos",
+                "value": "3",
+                "type": "text"
+            },
+            {
+                "name": "Enfermedades de los hermanos",
+                "displayName": "Enfermedades de los hermanos",
+                "value": "Se desconoce",
+                "type": "textarea"
+            }
+        ],
+        "antescedentesGinecoObstetricos": [
+            {
+                "name": "Menarquia",
+                "displayName": "Menarquia",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Ritmo",
+                "displayName": "Ritmo",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "F.U.M",
+                "displayName": "F.U.M",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "G",
+                "displayName": "G",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "P",
+                "displayName": "P",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "A",
+                "displayName": "A",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "X",
+                "displayName": "X",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "X",
+                "displayName": "X",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "PEEA",
+                "displayName": "PEEA",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "DNR",
+                "displayName": "DNR",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "I.P.A.S",
+                "displayName": "I.P.A.S",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Uso de métodos anticonceptivos",
+                "displayName": "Uso de métodos anticonceptivos",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Métodos anticonceptivos utilizados",
+                "displayName": "Métodos anticonceptivos utilizados",
+                "value": "",
+                "type": "text"
+            }
+        ],
+        "exploracionFisica": [
+            {
+                "name": "Signos vitales. T.A (brazo derecho)",
+                "displayName": "Signos vitales. T.A (brazo derecho)",
+                "value": "140/100",
+                "type": "text"
+            },
+            {
+                "name": "Signos vitales. T.A (brazo izquierdo)",
+                "displayName": "Signos vitales. T.A (brazo izquierdo)",
+                "value": "140/100",
+                "type": "text"
+            },
+            {
+                "name": "F.C",
+                "displayName": "F.C",
+                "value": "105 lpm",
+                "type": "text"
+            },
+            {
+                "name": "Frec.respiratoria",
+                "displayName": "Frec.respiratoria",
+                "value": "26 rpm",
+                "type": "text"
+            },
+            {
+                "name": "Temperatura",
+                "displayName": "Temperatura",
+                "value": "36ºC",
+                "type": "text"
+            },
+            {
+                "name": "Peso",
+                "displayName": "Peso",
+                "value": "58 kg",
+                "type": "text"
+            },
+            {
+                "name": "Talla",
+                "displayName": "Talla",
+                "value": "185 cm",
+                "type": "text"
+            },
+            {
+                "name": "IMC",
+                "displayName": "IMC",
+                "value": "16.95 kg/m",
+                "type": "text"
+            },
+            {
+                "name": "Cabeza y cuello",
+                "displayName": "Cabeza y cuello",
+                "value": "Sin irregularidades",
+                "type": "textarea"
+            },
+            {
+                "name": "Tórax",
+                "displayName": "Tórax",
+                "value": "Sin irregularidades",
+                "type": "textarea"
+            },
+            {
+                "name": "Abdómen",
+                "displayName": "Abdómen",
+                "value": "Sin irregularidades",
+                "type": "textarea"
+            },
+            {
+                "name": "Extremidades",
+                "displayName": "Extremidades",
+                "value": "Movimientos involuntarios de las extremidades superiores, la mano derecha no la mueve desde la crisis convulsiva",
+                "type": "textarea"
+            },
+            {
+                "name": "Neurológico y estado mental",
+                "displayName": "Neurológico y estado mental",
+                "value": "pérdida de la memoria y cambios de humor",
+                "type": "textarea"
+            }
+        ],
+        "laboratorio": [
+            {
+                "name": "Glucosa",
+                "displayName": "Glucosa",
+                "value": "67 mg/dl",
+                "type": "text"
+            },
+            {
+                "name": "Nitrogeno ureico (BUN): ",
+                "displayName": "Nitrogeno ureico (BUN): ",
+                "value": "16 mg/dl",
+                "type": "text"
+            },
+            {
+                "name": "Creatinina",
+                "displayName": "Creatinina",
+                "value": "0.6 mg/dl",
+                "type": "text"
+            },
+            {
+                "name": "Ácido úrico",
+                "displayName": "Ácido úrico",
+                "value": "2.8 mg/dl",
+                "type": "text"
+            },
+            {
+                "name": "Triglicéridos",
+                "displayName": "Triglicéridos",
+                "value": "36ºC",
+                "type": "text"
+            },
+            {
+                "name": "Colesterol LDL",
+                "displayName": "Colesterol LDL",
+                "value": "128 mg/dl",
+                "type": "text"
+            },
+            {
+                "name": "Colesterol LDH",
+                "displayName": "Colesterol LDH",
+                "value": "52 mg/dl",
+                "type": "text"
+            },
+            {
+                "name": "Colesterol total",
+                "displayName": "Colesterol total",
+                "value": "138 mg/dl",
+                "type": "text"
+            },
+            {
+                "name": "Albúmina",
+                "displayName": "Albúmina",
+                "value": "3g/100 ml",
+                "type": "text"
+            }
+        ],
+        "otrosEstudios": {
+            "type": "table",
+            "headerColumns": [
+                "Caracteristica †",
+                "Todos (N=155)", 
+                "Osteoporosis (N=47)", 
+                "Control (N=108)",
+                "Valor de P (*)"
+            ],
+            "rowColumns": [
+                [
+                    "Sangre", 
+                    "", 
+                    "", 
+                    "", 
+                    ""
+                ],
+                [
+                    "   Calcio (mg/dl)", 
+                    "9.2±0.7", 
+                    "9.3±0.6", 
+                    "9.2±0.7", 
+                    "0.31"
+                ],
+                [
+                    "   Fósforo (mg/dl)",
+                    "3.4±0.5",
+                    "3.5±0.5",
+                    "3.4±0.5",
+                    "0.68"
+                ],
+                [
+                    "   Fosfatasa alcalina (U/I)",
+                    "194±132",
+                    "274±203",
+                    "161±65",
+                    "<0.001"
+                ],
+                [
+                    "   Cretanina (md/dl)",
+                    "0.87±0.14",
+                    "0.85±0.14",
+                    "0.88±0.13",
+                    "0.35"
+                ],
+                [
+                    "   C-telopéptido (ng/ml)",
+                    "0.82±1.54",
+                    "0.81±0.39",
+                    "0.83±1,81",
+                    "0.97"
+                ],
+                [
+                    "   Osteocalcina (ng/ml)",
+                    "25.5±13.2",
+                    "30.1±13.9",
+                    "23.2±12.5",
+                    "0.08"
+                ],
+                [
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "Orina de 24 horas",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                [
+                    "   Calcio (mg/24 hs)",
+                    "184±101",
+                    "198±111",
+                    "178±97",
+                    "0.36"
+                ],
+                [
+                    "   Cretatina (mg/24 hs)",
+                    "921±313",
+                    "868±243",
+                    "946±341",
+                    "0.27"
+                ],
+                [
+                    "   Relación calcio/cretatinina",
+                    "0.21±0.11",
+                    "0.23±0.11",
+                    "0.19±0.11",
+                    "0.12"
+                ],
+                [
+                    "   Fósforo (mg/24 hs)",
+                    "654±240",
+                    "690±275",
+                    "633±219",
+                    "0.42"
+                ],
+                [
+                    "   Sodio (mg/24 hs)",
+                    "158±72",
+                    "165±57",
+                    "156±79",
+                    "0.67"
+                ]
+            ],
+            "name": "Otros Estudios",
+            "displayName": "Otros Estudios"
+        }
+    }
+]
