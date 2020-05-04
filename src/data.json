@@ -36,6 +36,12 @@
                 "type": "text"
             },
             {
+                "name": "civilStatus",
+                "displayName": "Estado Civil",
+                "value": "Viudo",
+                "type": "text"
+            },
+            {
                 "name": "hall",
                 "displayName": "Cuarto",
                 "value": 23,
@@ -613,8 +619,284 @@
                     "0.67"
                 ]
             ],
-            "name": "Otros Estudios",
+            "name": "Fecha: 2/05/2020",
             "displayName": "Otros Estudios"
-        }
+        },
+        "aspectoPrimeraVista": [
+            {
+                "name": "Física",
+                "displayName": "Física",
+                "value": "Disminución de la movilidad en miembros superiores, específicamente en el brazo derecho",
+                "type": "textarea"
+            },
+            {
+                "name": "Emocional",
+                "displayName": "Emocional",
+                "value": "Se nota distraído, con episodios de ausencia",
+                "type": "textarea"
+            },
+            {
+                "name": "Estado financiero en relación a la asistencia",
+                "displayName": "Estado financiero en relación a la asistencia",
+                "value": "Nivel socioeconómico medio",
+                "type": "text"
+            },
+            {
+                "name": "Diagnostico médico",
+                "displayName": "Diagnostico médico",
+                "value": "Hipertension arterial bajo",
+                "type": "textarea"
+            }
+        ],
+        "historiaSaludGeneral": [
+            {
+                "name": "Padre vive",
+                "displayName": "Padre vive",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Enfermedades del padre",
+                "displayName": "Enfermedades del padre",
+                "value": "Diábetes tipo 2",
+                "type": "textarea"
+            },
+            {
+                "name": "Causa de  muerte del padre",
+                "displayName": "Causa de  muerte del padre",
+                "value": "Diábetes tipo 2",
+                "type": "textarea"
+            },
+            {
+                "name": "Madre vive",
+                "displayName": "Madre vive",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Enfermedades de la madre",
+                "displayName": "Enfermedades de la madre",
+                "value": "Hipertensión",
+                "type": "textarea"
+            },
+            {
+                "name": "Causa de muerte de la madre",
+                "displayName": "Causa de muerte de la madre",
+                "value": "Natural",
+                "type": "textarea"
+            },
+            {
+                "name": "Hermanos viven",
+                "displayName": "Hermanos viven",
+                "value": 1,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Enfermedades de los hermanos",
+                "displayName": "Enfermedades de los hermanos",
+                "value": "",
+                "type": "textarea"
+            },
+            {
+                "name": "Causa de muerte de los hermanos",
+                "displayName": "Causa de muerte de los hermanos",
+                "value": "",
+                "type": "textarea"
+            },
+            {
+                "name": "Hijos viven",
+                "displayName": "Hijos viven",
+                "value": 1,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Enfermedades de los hijos",
+                "displayName": "Enfermedades de los hijos",
+                "value": "",
+                "type": "textarea"
+            },
+            {
+                "name": "Causa de muerte de los hijos",
+                "displayName": "Causa de muerte de los hijos",
+                "value": "",
+                "type": "textarea"
+            }
+        ],
+        "actividades": [
+            {
+                "name": "Consumo de tabaco",
+                "displayName": "Consumo de tabaco",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Cantidad/regularidad de consumo de tabaco",
+                "displayName": "Cantidad/regularidad de consumo de tabaco",
+                "value": "",
+                "type": "text"
+            },
+            {
+                "name": "Consumo de alcohol",
+                "displayName": "Consumo de alcohol",
+                "value": 1,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Cantidad/regularidad de consumo de alcohol",
+                "displayName": "Cantidad/regularidad de consumo de alcohol",
+                "value": "Consumo regular",
+                "type": "text"
+            },
+            {
+                "name": "Ejercicio",
+                "displayName": "Ejercicio",
+                "value": 0,
+                "options": [
+                    "No",
+                    "Sí"
+                ],
+                "type": "options"
+            },
+            {
+                "name": "Tipo y frecuencia del ejercicio",
+                "displayName": "Tipo y frecuencia del ejercicio",
+                "value": "",
+                "type": "text"
+            },
+            {
+                "name": "Nutrición, calidad, hábitos, especiales",
+                "displayName": "Nutrición, calidad, hábitos, especiales",
+                "value": "Dejó de hacer las 3 comidas básicas, en algunas ocasiones sus sobrinos o su vecina le llevan de comer. come en porciones pequeñas",
+                "type": "textarea"
+            },
+            {
+                "name": "Creencias religiosas y su impacto en la salud",
+                "displayName": "Creencias religiosas y su impacto en la salud",
+                "value": "Católico, no hay impacto",
+                "type": "textarea"
+            }
+        ],
+        "profesionalesSalud": [
+            {
+                "name": "Médico de familia",
+                "displayName": "Médico de familia",
+                "value": "Centro de salud",
+                "type": "text"
+            },
+            {
+                "name": "Especialidad",
+                "displayName": " Especialidad",
+                "value": "Médico general",
+                "type": "text"
+            },
+            {
+                "name": "Tratamientos que recibe",
+                "displayName": "Tratamientos que recibe",
+                "value": "Tratamiento de enalapril",
+                "type": "textarea"
+            },
+            {
+                "name": "Frecuencia del tratamiento",
+                "displayName": "Frecuencia del tratamiento",
+                "value": "Tratamiento en descontrol por falta de ingesta de medicamento",
+                "type": "textarea"
+            }
+        ],
+        "alergias": [
+            {
+                "name": "Alimentos",
+                "displayName": "Alimentos",
+                "value": "Fresas",
+                "type": "textarea"
+            },
+            {
+                "name": "Drogas",
+                "displayName": " Drogas",
+                "value": "Ibuprofeno",
+                "type": "textarea"
+            },
+            {
+                "name": "Otras",
+                "displayName": "Otras",
+                "value": "Polvo, pirul y gatos",
+                "type": "textarea"
+            }
+        ],
+        "medicaciones": [
+            {
+                "name": "Nombres",
+                "displayName": "Nombres",
+                "value": "Enalapril y vasotec",
+                "type": "text"
+            },
+            {
+                "name": "Dosis",
+                "displayName": "Dosis",
+                "value": "20 mg dos veces al dia",
+                "type": "text"
+            },
+            {
+                "name": "Propósitos",
+                "displayName": "Propósitos",
+                "value": "Inhibidores de la ECA",
+                "type": "textarea"
+            },
+            {
+                "name": "Frecuencia",
+                "displayName": "Frecuencia",
+                "value": "Tratamiento en descontrol por falta de ingesta de medicamentos ",
+                "type": "textarea"
+            }
+        ],
+        "psicosocial": [
+            {
+                "name": "Motivos de consulta o problema principal",
+                "displayName": "Motivos de consulta o problema principal",
+                "value": "Fue traído a consulta por su sobrino después de presentar un cuadro confusional posterior a crisis convulsiva tonicoclónica. No mueve su mano derecha desde el dia de la crisis convulsiva y con la derecha ata su suéter, tiene mirada perdida",
+                "type": "textarea"
+            },
+            {
+                "name": "Historia de la enfermedad actual",
+                "displayName": "Historia de la enfermedad actual",
+                "value": "Hace un año presentó de forma brusca y durante unos días perdida de memoria y olvido cosas como fechas, personas y tenía dificultad para realizar actividades de la vida diaria como vestirse y comer. actualmente tiene pérdidas ocasionales del control de esfínteres y han observado cambios en su comportamientos, como cambios de humor repentinos, olvida palabras y se le dificulta resolver problemas con el dinero.",
+                "type": "textarea"
+            },
+            {
+                "name": "Antecedentes patológicos personales ",
+                "displayName": "Antecedentes patológicos personales ",
+                "value": "Con hipertensión arterial bajo diagnosticada desde hace 5 años, tratamiento en descontrol por falta de ingesta de medicamentos.",
+                "type": "textarea"
+            },
+            {
+                "name": "Perfil del paciente ",
+                "displayName": "Perfil del paciente ",
+                "value": "Masculino de 82 años de edad, viudo, vive solo, pensionado con problemas de hipertension arterial baja, tratamiento de enalapril en descontrol. Las únicas personas a cargo de él son sus sobrinos y una vecina. menciona que tomaba alcohol en cantidad moderada y lo dejo a los 62, no consume drogas, no consume tabaco y tiene hábitos alimenticios irregulares que lo han llevado a una ligera desnutrición. menciona que en su juventud fue un atleta ya que corría, dejó el hábito a los 55 años cuando comenzó a sentirse mareado, cansado y no tenía la misma energía que antes. practica el catolicismo ya que hasta la fecha trata de acudir regularmente a misa, pero debido a que se encuentra desorientado sus sobrinos no lo dejan salir. evidentes cambios de hábitos alimenticios, desorden con el tratamiento y secuelas de una crisis.",
+                "type": "textarea"
+            }
+        ] 
     }
 ]

@@ -73,7 +73,7 @@ export default class Books extends Component {
                                                                 </Dropdown.Item>,
                                                                 <Dropdown.Item
                                                                     key={2}
-                                                                    onClick={console.log("")}>
+                                                                    onClick={() => this.props.history.push(`/patients/${i}/anamnesis`)}>
                                                                     <i className="fe fe-eye" />
                                                                     <span> Anamnesis</span>
                                                                 </Dropdown.Item>

@@ -8,6 +8,7 @@ import Home from './../pages/Home';
 
 import Patients from '../pages/patients/Index';
 import History from '../pages/patients/History';
+import Anamnesis from '../pages/patients/Anamnesis';
 
 export default class Wrapper extends Component {
 
@@ -37,6 +38,14 @@ export default class Wrapper extends Component {
                             <Route path="/patients/:id/history"
                                 render={(props) =>
                                     <History
+                                        {...props}
+                                    />
+                                }
+                            exact={true} />
+
+                            <Route path="/patients/:id/anamnesis"
+                                render={(props) =>
+                                    <Anamnesis
                                         {...props}
                                     />
                                 }

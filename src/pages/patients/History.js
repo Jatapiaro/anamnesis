@@ -44,7 +44,7 @@ export default class History extends Component {
                                 <div className="row" key={`general-row-${i}`}>
                                     {
                                         chunk.map((c, ci) => 
-                                            <div className="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                            <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                                                 <SuperInput field={c} key={`general-field-${i}-${ci}`}/>
                                             </div>
                                         )
@@ -65,7 +65,7 @@ export default class History extends Component {
                                 <div className="row" key={`antescedentes-1-row-${i}`}>
                                     {
                                         chunk.map((c, ci) =>
-                                            <div className="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                            <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                                                 <SuperInput field={c} key={`antescedentes-1-field-${i}-${ci}`} />
                                             </div>
                                         )
@@ -85,7 +85,7 @@ export default class History extends Component {
                                 <div className="row" key={`antescedentes-2-row-${i}`}>
                                     {
                                         chunk.map((c, ci) =>
-                                            <div className="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                            <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                                                 <SuperInput field={c} key={`antescedentes-2-field-${i}-${ci}`} />
                                             </div>
                                         )
@@ -105,7 +105,7 @@ export default class History extends Component {
                                 <div className="row" key={`antescedentes-3-row-${i}`}>
                                     {
                                         chunk.map((c, ci) =>
-                                            <div className="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                            <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                                                 <SuperInput field={c} key={`antescedentes-3-field-${i}-${ci}`} />
                                             </div>
                                         )
@@ -125,7 +125,7 @@ export default class History extends Component {
                                 <div className="row" key={`antescedentes-3-row-${i}`}>
                                     {
                                         chunk.map((c, ci) =>
-                                            <div className="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                            <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                                                 <SuperInput field={c} key={`antescedentes-3-field-${i}-${ci}`} />
                                             </div>
                                         )
@@ -145,7 +145,7 @@ export default class History extends Component {
                                 <div className="row" key={`exploracion-row-${i}`}>
                                     {
                                         chunk.map((c, ci) =>
-                                            <div className="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                            <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                                                 <SuperInput field={c} key={`exploracion-field-${i}-${ci}`} />
                                             </div>
                                         )
@@ -165,7 +165,7 @@ export default class History extends Component {
                                 <div className="row" key={`laboratorio-row-${i}`}>
                                     {
                                         chunk.map((c, ci) =>
-                                            <div className="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                            <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
                                                 <SuperInput field={c} key={`laboratorio-field-${i}-${ci}`} />
                                             </div>
                                         )
