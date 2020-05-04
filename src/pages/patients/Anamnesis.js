@@ -107,7 +107,7 @@ export default class Anamnesis extends Component {
                                 <div className="row" key={`primera-vista-row-${i}`}>
                                     {
                                         chunk.map((c, ci) =>
-                                            <div className="col-sm-12 col-md-2 col-lg-4 col-xl-4">
+                                            <div className="col-sm-12 col-md-2 col-lg-6 col-xl-6">
                                                 <SuperInput field={c} key={`primera-vista-field-${i}-${ci}`} />
                                             </div>
                                         )
@@ -127,7 +127,7 @@ export default class Anamnesis extends Component {
                                 <div className="row" key={`profesionales-salud-row-${i}`}>
                                     {
                                         chunk.map((c, ci) =>
-                                            <div className="col-sm-12 col-md-2 col-lg-3 col-xl-3">
+                                            <div className="col-sm-12 col-md-2 col-lg-6 col-xl-6">
                                                 <SuperInput field={c} key={`profesionales-salud-field-${i}-${ci}`} />
                                             </div>
                                         )
