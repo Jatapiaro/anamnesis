@@ -1,0 +1,312 @@
+{
+    "datosGenerales": [
+        {
+            "name": "Historia no: ",
+            "displayName": "Historia no: ",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "Nombre",
+            "displayName": "Nombre",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "Edad",
+            "displayName": "Edad",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "Categoría clínica (cardíaca, neurológica)",
+            "displayName": "Categoría clínica (cardíaca, neurológica)",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "Diágnostico",
+            "displayName": "Diágnostico",
+            "value": "",
+            "type": "textarea"
+        }
+    ],
+    "analgesicos": [
+        {
+            "name": "Clase",
+            "displayName": "Clase",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "Dosificación",
+            "displayName": "Dosificación",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "Fecha de administración",
+            "displayName": "Fecha de administración",
+            "value": "",
+            "type": "date"
+        }
+    ],
+    "parteDos": [
+        {
+            "name": "1",
+            "displayName": "1",
+            "value": 0,
+            "options": [
+                "Aletea", "Tiembla", "Late", "Palpita", "Golpea", "Martillea"
+            ],
+            "type": "options"
+        },
+        {
+            "name": "2",
+            "displayName": "2",
+            "value": 0,
+            "options": [
+                "Brinco", "Destello", "Disparo"
+            ],
+            "type": "options"
+        },
+        {
+            "name": "3",
+            "displayName": "3",
+            "value": 0,
+            "options": [
+                "Pincha", "Perfora", "Taladra", "Apuñala", "Lancinante" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "4",
+            "displayName": "4",
+            "value": 0,
+            "options": [
+                "Agudo", "Cortante", "Lacerante" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "5",
+            "displayName": "5",
+            "value": 0,
+            "options": [
+                "Pellizca", "Aprieta", "Roe", "Acalambra", "Aplasta" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "6",
+            "displayName": "6",
+            "value": 0,
+            "options": [
+                "Tira", "Tracciona", "Arranca" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "7",
+            "displayName": "7",
+            "value": 0,
+            "options": [
+                "Calienta", "Quema", "Escalda", "Abrasa"
+            ],
+            "type": "options"
+        },
+        {
+            "name": "8",
+            "displayName": "8",
+            "value": 0,
+            "options": [
+                "Hormigueo", "Picor", "Escozor", "Aguijoneo" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "9",
+            "displayName": "9",
+            "value": 0,
+            "options": [
+                "Sordo", "Penoso", "Hiriente", "Irritación", "pesado" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "10",
+            "displayName": "10",
+            "value": 0,
+            "options": [
+                "Sensible", "Tirante", "Áspero", "Raja"
+            ],
+            "type": "options"
+        },
+        {
+            "name": "11",
+            "displayName": "11",
+            "value": 0,
+            "options": [
+                "Cansa", "Agota"
+            ],
+            "type": "options"
+        },
+        {
+            "name": "12",
+            "displayName": "12",
+            "value": 0,
+            "options": [
+                "Marea", "Sofoca" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "13",
+            "displayName": "13",
+            "value": 0,
+            "options": [
+                "Miedo", "Espanto", "Pavor" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "14",
+            "displayName": "14",
+            "value": 0,
+            "options": [
+                "Castigador", "Abrumador", "cruel", "Rabioso", "Mortificante"
+            ],
+            "type": "options"
+        },
+        {
+            "name": "15",
+            "displayName": "15",
+            "value": 0,
+            "options": [
+                "Desdichado", "Cegador" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "16",
+            "displayName": "16",
+            "value": 0,
+            "options": [
+                "Molesto", "preocupante", "Apabullante", "intenso", "insoportable" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "17",
+            "displayName": "17",
+            "value": 0,
+            "options": [
+                "Difuso", "Irradiado", "Penetrante", "Punzante" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "18",
+            "displayName": "18",
+            "value": 0,
+            "options": [
+                "Apretado", "Entumecido", "Exprimido", "Estrujado", "Desgarrado" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "19",
+            "displayName": "19",
+            "value": 0,
+            "options": [
+                "Fresco", "Frío", "Helado"
+            ],
+            "type": "options"
+        },
+        {
+            "name": "20",
+            "displayName": "20",
+            "value": 0,
+            "options": [
+                "Desagradable", "nauseabundo", "agonístico", " terrible", "Torturante" 
+            ],
+            "type": "options"
+        }
+    ],
+    "parteTres": [
+        {
+            "name": "1",
+            "displayName": "1",
+            "value": 0,
+            "options": [
+                "Continuo", "Invariable", "constante" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "2",
+            "displayName": "2",
+            "value": 0,
+            "options": [
+                "Rítmico", "periódico", "Intermitente" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "3",
+            "displayName": "3",
+            "value": 0,
+            "options": [
+                "Breve", "Momentáneo", "Transitorio"
+            ],
+            "type": "options"
+        },
+        {
+            "name": "Factores que agravan el dolor:",
+            "displayName": "Factores que agravan el dolor:",
+            "value": "",
+            "type": "textarea"
+        }
+    ],
+    "parteCuatro": [
+        {
+            "name": "Elegir la palabra que mejor refleje la magnitud del dolor en este momento",
+            "displayName": "Elegir la palabra que mejor refleje la magnitud del dolor en este momento",
+            "value": 0,
+            "options": [
+                "1. Ligero",
+                "2. Molesto",
+                "3. Angustioso",
+                "4. Horrible",
+                "5. Atros"
+            ],
+            "type": "options"
+        }
+    ],
+    "puntuacion": [
+        {
+            "name": "PPI (Present pain index = Índice de intensidad del dolor)",
+            "displayName": "PPI (Present pain index = Índice de intensidad del dolor)",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "Número de palabras escogidas",
+            "displayName": "Número de palabras escogidas",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "PRI (Pain rating index = Índice de valoración del dolor)",
+            "displayName": "PRI (Pain rating index = Índice de valoración del dolor)",
+            "value": 0,
+            "options": [
+                "Sensorial: (1-10)",
+                "Afectivo: (11 - 15)",
+                "Evaluativo: (16)",
+                "Misceláneo: (17-20)"
+            ],
+            "type": "options"
+        }
+    ]
+}

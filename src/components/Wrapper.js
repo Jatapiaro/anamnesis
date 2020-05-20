@@ -10,6 +10,11 @@ import Patients from '../pages/patients/Index';
 import History from '../pages/patients/History';
 import Anamnesis from '../pages/patients/Anamnesis';
 
+import McGill from './../pages/McGill';
+import Espanol from './../pages/DolorEspanol';
+import Latinen from './../pages/Latinen';
+import Oswestry from './../pages/Owestry';
+
 export default class Wrapper extends Component {
 
     render() {
@@ -26,6 +31,38 @@ export default class Wrapper extends Component {
                                     />
                                 }
                             exact={true} />
+
+                            <Route path="/mc-gill"
+                                render={(props) =>
+                                    <McGill
+                                        {...props}
+                                    />
+                                }
+                                exact={true} />
+                            
+                            <Route path="/espanol"
+                                render={(props) =>
+                                    <Espanol
+                                        {...props}
+                                    />
+                                }
+                                exact={true} />
+
+                            <Route path="/latinen"
+                                render={(props) =>
+                                    <Latinen
+                                        {...props}
+                                    />
+                                }
+                                exact={true} />
+
+                            <Route path="/oswestry"
+                                render={(props) =>
+                                    <Oswestry
+                                        {...props}
+                                    />
+                                }
+                                exact={true} />
 
                             <Route path="/patients"
                                 render={(props) =>

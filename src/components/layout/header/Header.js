@@ -13,6 +13,10 @@ export default class Header extends Component {
         super(props);
         this.navlinks = [
             new NavLink('Pacientes', 'fa fa-user', '/patients', true),
+            new NavLink('Test McGill', 'fa fa-user', '/mc-gill', true),
+            new NavLink('Test Dolor Espanol', 'fa fa-user', '/espanol', true),
+            new NavLink('Latinen', 'fa fa-user', '/latinen', true),
+            new NavLink('Oswestry', 'fa fa-user', '/oswestry', true),
         ];
     }
 

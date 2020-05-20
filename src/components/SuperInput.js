@@ -27,6 +27,34 @@ export default class SuperInput extends Component {
                     />
                 </Form.Group>
             );
+        } else if (this.props.field.type === "date") {
+
+            component = (
+                <Form.Group label={displayName}>
+                    <Form.DatePicker
+                        disabled
+                        defaultDate={new Date("2020-05-20T03:24:46.553Z")}
+                        format="mm/dd/yyyy"
+                        maxYear={2020}
+                        minYear={1897}
+                        monthLabels={[
+                            'January',
+                            'February',
+                            'March',
+                            'April',
+                            'May',
+                            'June',
+                            'July',
+                            'August',
+                            'September',
+                            'October',
+                            'November',
+                            'December'
+                        ]}
+                    />
+                </Form.Group>
+            );
+
         } else if (this.props.field.type === "options") {
             let radios = [];
             this.props.field.options.map((op, i) => {
@@ -53,6 +81,66 @@ export default class SuperInput extends Component {
                 <Form.Group label={displayName}>
                     {
                         radios.map((r, i) => 
+                            r
+                        )
+                    }
+                </Form.Group>
+            );
+        } else if (this.props.field.type === "options-no-inline") {
+            let radios = [];
+            this.props.field.options.map((op, i) => {
+                if (i === this.props.field.value) {
+                    radios.push(
+                        <Form.Radio
+                            disabled
+                            checked
+                            label={op}
+                        />
+                    );
+                } else {
+                    radios.push(
+                        <Form.Radio
+                            disabled
+                            label={op}
+                        />
+                    );
+                }
+            });
+            component = (
+                <Form.Group label={displayName}>
+                    {
+                        radios.map((r, i) =>
+                            r
+                        )
+                    }
+                </Form.Group>
+            );
+        } else if (this.props.field.type === "checkbox") {
+            let radios = [];
+            this.props.field.checkbox.map((op, i) => {
+                if (i === this.props.field.value) {
+                    radios.push(
+                        <Form.Checkbox
+                            disabled
+                            isInline
+                            checked
+                            label={op}
+                        />
+                    );
+                } else {
+                    radios.push(
+                        <Form.Checkbox
+                            disabled
+                            isInline
+                            label={op}
+                        />
+                    );
+                }
+            });
+            component = (
+                <Form.Group label={displayName}>
+                    {
+                        radios.map((r, i) =>
                             r
                         )
                     }

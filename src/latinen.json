@@ -1,0 +1,62 @@
+{
+    "fecha": {
+        "name": "Fecha",
+        "displayName": "Fecha",
+        "value": "",
+        "type": "date"
+    },
+    "latinen": [
+        {
+            "name": "Intensidad de dolor",
+            "displayName": "Intensidad de dolor",
+            "value": 0,
+            "options": [
+                "1. Ligero", "2. Molesto", "3. Intenso", "4. Insoportable" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "Frecuencia de dolor",
+            "displayName": "Frecuencia de dolor",
+            "value": 0,
+            "options": [
+                "1. Raramente", "2. Frecuentemente", "3. Muy frecuente", "4. Continuo" 
+            ],
+            "type": "options"
+        },
+        {
+            "name": "Consumo de analgesicos",
+            "displayName": "Consumo de analgesicos",
+            "value": 0,
+            "options": [
+                "1. Ocacionalmente", "2. Regular y pocos", "3. Regular y muchos", "4. Muchisimos"
+            ],
+            "type": "options"
+        },
+        {
+            "name": "Incapacidad",
+            "displayName": "Incapacidad",
+            "value": 0,
+            "options": [
+                "1. Ligera", "2. Moderada", "3. Ayuda necesaria", "4. Total"
+            ],
+            "type": "options"
+        },
+        {
+            "name": "Horas de SUEÑO",
+            "displayName": "Horas de SUEÑO",
+            "value": 0,
+            "options": [
+                "0. Normal", "1. Despierta alguna vez", "2. Despierta varias veces", "3. Insomnio", "4. Sedantes", 
+                "Valor iniciativo" 
+            ],
+            "type": "options"
+        }
+    ],
+    "total": {
+        "name": "Total",
+        "displayName": "Total",
+        "value": "0",
+        "type": "text"
+    }
+}

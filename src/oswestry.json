@@ -1,0 +1,150 @@
+{
+    "oswestry": [
+        {
+            "name": "INTENSIDAD DEL DOLOR:",
+            "displayName": "INTENSIDAD DEL DOLOR:",
+            "value": 0,
+            "options": [
+                "0. Puedo soportar el dolor sin necesidad de tomar calmantes",
+                "1. El dolor es fuerte pero me arreglo sin tomar calmantes",
+                "2. Los calmantes me alivian completamente el dolor",
+                "3.Los calmantes me alivian un poco el dolor",
+                "4. Los calmantes apenas me alivian el dolor",
+                "5 .Los calmantes no me alivian el dolor y no me los tomo"
+            ],
+            "type": "options-no-inline"
+        },
+        {
+            "name": "ESTAR DE PIE:",
+            "displayName": "ESTAR DE PIE:",
+            "value": 0,
+            "options": [
+                "0. Puedo estar de pie tanto tiempo como quiera sin que me aumente el dolor",
+                "1. Puedo estar de pie tanto tiempo como quiera pero me aumenta el dolor",
+                "2.El dolor me impide estar de pie más de una hora",
+                "3. El dolor me impide estar de pie más de media hora",
+                "4. El dolor me impide estar de pie más de 10 minutos",
+                "5. El dolor me impide estar de pie"
+            ],
+            "type": "options-no-inline"
+        },
+        {
+            "name": "CUIDADOS PERSONALES:",
+            "displayName": "CUIDADOS PERSONALES:",
+            "value": 0,
+            "options": [
+                "0. Me las puedo arreglar solo sin que me aumente el dolor",
+                "1. Me las puedo arreglar solo pero esto me aumenta el dolor",
+                "2. Lavarme, vestirme, etc, me produce dolor y tengo que hacerlo despacio y con cuidado",
+                "3. Necesito alguna ayuda pero consigo hacer la mayoría de las cosas yo solo",
+                "4. Necesito ayuda para hacer la mayoría de las cosas",
+                "5. No puedo vestirme, me cuesta lavarme y suelo quedarme en la cama"
+            ],
+            "type": "options-no-inline"
+        },
+        {
+            "name": "DORMIR:",
+            "displayName": "DORMIR:",
+            "value": 0,
+            "options": [
+                "0. El dolor no me impide dormir bien",
+                "1. Sólo puedo dormir si tomo pastillas",
+                "2. Incluso tomando pastillas duermo menos de 6 horas",
+                "3. Incluso tomando pastillas duermo menos de 4 horas",
+                "4. Incluso tomando pastillas duermo menos de 2 horas",
+                "5. El dolor me impide totalmente dormir"
+            ],
+            "type": "options-no-inline"
+        },
+        {
+            "name": "LEVANTAR PESO",
+            "displayName": "LEVANTAR PESO",
+            "value": 0,
+            "options": [
+                "0. Puedo levantar objetos pesados sin que me aumente el dolor",
+                "1. Puedo levantar objetos pesados pero me aumenta el dolor",
+                "2. El dolor me impide levantar objetos pesados del suelo pero puedo hacerlo si están en un sitio cómodo (ej. en un mesa)",
+                "3. El dolor me impide levantar objetos pesados pero si puedo levantar  objetos ligeros o medianos si están en un sitio cómodo",
+                "4. Sólo puedo levantar objetos muy ligeros",
+                "5. No puedo levantar ni elevar ningún objeto"
+            ],
+            "type": "options-no-inline"
+        },
+        {
+            "name": " ACTIVIDAD SEXUAL:",
+            "displayName": " ACTIVIDAD SEXUAL:",
+            "value": 0,
+            "options": [
+                "0. Mi actividad sexual es normal y no me aumenta el dolor",
+                "1. Mi actividad sexual es normal pero me aumenta el dolor",
+                "2. Mi actividad sexual es casi normal pero me aumenta mucho el dolor",
+                "3. Mi actividad sexual se ha visto muy limitada a causa del dolor",
+                "4. Mi actividad sexual es casi nula a causa del dolor",
+                "5. El dolor me impide todo tipo de actividad sexual"
+            ],
+            "type": "options-no-inline"
+        },
+        {
+            "name": "ANDAR:",
+            "displayName": "ANDAR:",
+            "value": 0,
+            "options": [
+                "0. El dolor no me impide andar",
+                "1. El dolor me impide andar más de un kilómetro",
+                "2. El dolor me impide andar más de 500 metros",
+                "3. El dolor me impide andar más de 250 metros",
+                "4. Sólo puedo andar con bastón o muletas",
+                "5. Permanezco en la cama casi todo el tiempo y tengo que ir a rastras al baño"
+            ],
+            "type": "options-no-inline"
+        },
+        {
+            "name": "VIDA SOCIAL:",
+            "displayName": "VIDA SOCIAL:",
+            "value": 0,
+            "options": [
+                "0. Mi vida social es normal y no me aumenta el dolor",
+                "1. Mi vida social es normal pero me aumenta el dolor",
+                "2. El dolor no tiene un efecto importante en mi vida social , pero si impide mis actividades más enérgicas como bailar, etc",
+                "3. El dolor ha limitado mi vida social y no salgo tan a menudo",
+                "4. El dolor ha limitado mi vida social al hogar",
+                "5. No tengo vida social a causa del dolor"
+            ],
+            "type": "options-no-inline"
+        },
+        {
+            "name": "ESTAR SENTADO:",
+            "displayName": "ESTAR SENTADO:",
+            "value": 0,
+            "options": [
+                "0. Puedo estar sentado en cualquier tipo de silla todo el tiempo que quiera",
+                "1. Puedo estar sentado en mi silla favorita todo el tiempo que quiera",
+                "2. El dolor me impide estar sentado más de una hora",
+                "3. El dolor me impide estar sentado más de media hora",
+                "4. El dolor me impide estar sentado más de 10 minutos",
+                "5. El dolor me impide estar sentado"
+            ],
+            "type": "options-no-inline"
+        },
+        {
+            "name": "VIAJAR",
+            "displayName": "VIAJAR",
+            "value": 0,
+            "options": [
+                "0. Puedo viajar a cualquier sitio sin que me aumente el dolor",
+                "1. Puedo viajar a cualquier sitio pero me aumente el dolor",
+                "2. El dolor es fuerte pero aguanto viajes de más de 2 horas",
+                "3. El dolor me limita a viajes de menos de una hora",
+                "4. El dolor me limita a viajes cortos y necesarios de menos de media hora",
+                "5. El dolor me impide viajar excepto para ir al médico o al hospital"
+            ],
+            "type": "options-no-inline"
+        }
+    ],
+    "total": {
+        "name": "Total",
+        "displayName": "Total",
+        "value": "12",
+        "type": "text"
+    }
+}

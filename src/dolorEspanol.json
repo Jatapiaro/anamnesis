@@ -1,0 +1,165 @@
+{
+    "datosGenerales": [
+        {
+            "name": "Historia no: ",
+            "displayName": "Historia no: ",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "Nombre",
+            "displayName": "Nombre",
+            "value": "",
+            "type": "text"
+        },
+        {
+            "name": "Fecha",
+            "displayName": "Fecha",
+            "value": "",
+            "type": "date"
+        },
+        {
+            "name": "Unidad/centro",
+            "displayName": "Unidad/centro",
+            "value": "",
+            "type": "text"
+        }
+    ],
+    "prueba": [
+        {
+            "name": "1",
+            "displayName": "1",
+            "value": 0,
+            "checkbox": [
+                "como pulsaciones", "como una sacudida", "como un latigazo"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "2",
+            "displayName": "2",
+            "value": 0,
+            "checkbox": [
+                "frío", "caliente", "ardiente"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "3",
+            "displayName": "3",
+            "value": 0,
+            "checkbox": [
+                "entumecimiento", "como un pellizco", "espasmo", "retortijón", "opresivo", "calambre"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "4",
+            "displayName": "4",
+            "value": 0,
+            "checkbox": [
+                "pinchazo", "punzante", "penetrante", "agudo"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "5",
+            "displayName": "5",
+            "value": 0,
+            "checkbox": [
+                "pesado", "tirante", "como un desgarro", "tenso"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "6",
+            "displayName": "6",
+            "value": 0,
+            "checkbox": [
+                "superficial", "difuso", "irradia", "fijo", "interno", "profundo"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "7",
+            "displayName": "7",
+            "value": 0,
+            "checkbox": [
+                "adormecido", "picor", "hormigueo", "como agujetas", "escozor", "como una corriente"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "8",
+            "displayName": "8",
+            "value": 0,
+            "checkbox": [
+                "terrible", "espantoso", "horrible"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "9",
+            "displayName": "9",
+            "value": 0,
+            "checkbox": [
+                "que marea", "sofocante"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "10",
+            "displayName": "10",
+            "value": 0,
+            "checkbox": [
+                "atormenta", "mortificante", "violento"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "11",
+            "displayName": "11",
+            "value": 0,
+            "checkbox": [
+                "extenuante", "agotador", "incapacitante"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "12",
+            "displayName": "12",
+            "value": 0,
+            "checkbox": [
+                "incómodo", "irrita", "consume"
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "13",
+            "displayName": "13",
+            "value": 0,
+            "checkbox": [
+                "deprimente", "agobiante", "angustia", "obsesiona", "desesperante" 
+            ],
+            "type": "checkbox"
+        },
+        {
+            "name": "14",
+            "displayName": "14",
+            "value": 0,
+            "checkbox": [
+                "momentáneo", "intermitente", "creciente", "constante", "persistente"
+            ],
+            "type": "checkbox"
+        }
+    ],
+    "intensidad": {
+        "name": "Valor de intensidad actual",
+        "displayName": "Valor de intensidad actual",
+        "value": 0,
+        "options": [
+            "Sin dolor", "Leve", "Molesto", "Intenso", "Fuerte", "insoportable"
+        ],
+        "type": "options"
+    }
+}
